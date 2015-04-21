@@ -1,3 +1,12 @@
+Small instructions:
+1. Add \src\main\lib\jdom-2.0.6.jar to project libraries
+2. Run main() method of \src\main\java\RandomBeacon class:
+    a. Run without arguments
+    b. Run with arguments (in IDE: Edit Configurations > Program arguments) e.g.:  "2 hours ago" "2 minutes ago"
+
+P.S. Unfortunately, implemented only "one type" parsing: "2 hours ago" , "14 months ago", "14 days ago", "1 minute ago" etc.
+
+
 #Introduction#
 
 DevOps is about managing production environments at large scale -- deep
