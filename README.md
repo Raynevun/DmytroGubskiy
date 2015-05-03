@@ -1,8 +1,11 @@
 Small instructions:
-1. Add \src\main\lib\jdom-2.0.6.jar to project libraries
+1. Add \src\main\lib\jdom-2.0.6.jar and testng-6.8.jar to project libraries
 2. Run main() method of \src\main\java\RandomBeacon class:
     a. Run without arguments
     b. Run with arguments (in IDE: Edit Configurations > Program arguments) e.g.:  "2 hours ago" "2 minutes ago"
+3. To run tests:
+    a. right mouse click on  \src\main\test\testng.xml and select Run
+    b. run \src\main\test\RandomBeaconTests class
 
 P.S. Unfortunately, implemented only "one type" parsing: "2 hours ago" , "14 months ago", "14 days ago", "1 minute ago" etc.
 
